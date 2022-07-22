@@ -1,0 +1,23 @@
+1.分析布局
+  16个控件需要一个入容器是正方形——aspect ratio
+
+
+开发步骤
+    1. 添加游戏背景图片
+       scaleType:FitXY
+    2. 取消bar
+       themes->NoActionBar
+    3. 更改状态栏颜色
+       themes->status bar color
+    4. 添加控件的正方形父容器
+       aspect ratio
+    5. 添加16个ImageView
+    6. 开始ViewBinding/DataBinding
+    7. Activity中使用Binding类
+    8. 创建ViewModel
+       图片资源数组
+       控件数组
+    9. 更改控件的ID名称
+    10.在Activity中创建ViewModel对象并传递binding过去
+       在该方法中初始化视图列表
+    11.创建Model列表 将每个控件和图片资源id对应
